@@ -1,3 +1,13 @@
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+
+
+
+
 /* Nav styles */
  nav {
     display: flex;
@@ -53,5 +63,121 @@ nav ul {
     border: none;
     padding:18px 35px;
     border-radius: 5px;
+    cursor: pointer;
 
+}
+.btn-primary2 {
+   font-size: 20px;
+    font-weight: bold;
+    color: #FD6E0A;
+    background-color: white;
+    border: 1px solid  #FD6E0A;
+    padding:18px 35px;
+    border-radius: 5px;
+    
+
+}
+
+.btn-primary2:hover {
+      color:white;
+    background-color: #FD6E0A; 
+    border: none;
+    cursor: pointer;
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.banner-title {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.banner-profile-pic {
+    width:480px;
+}
+
+.banner-content {
+    max-width: 580px;
+    gap:0px;
+    
+}
+
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+.about{ 
+    border-radius: 10px;
+    padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+   
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.item-description {
+    font-weight: 600;
+    margin-top: 0%;
+
+
+}
+
+.dark-3 {
+    color: #424242;
+}
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.item-title {
+   padding-bottom: 0px;
+   font-weight: 700;
+}
+
+.section-description {
+    font-weight: 500;
+}
+.skills {
+   margin-top: 50px;
+}
+
+.text-center {
+      text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+    margin-top: 40px;
+}
+
+.skill {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #74747453;
+    padding: 50px 20px;
+    
+}
+
+.skill:hover {
+    background-color: #7372729b;
+    cursor: pointer;
+    transition-duration: 0.7s;
 }
